@@ -218,3 +218,17 @@ nav .nav-links a {
       width: 100vw;
     }
   }
+  @media (max-width: 1110px) {
+    .logo img {
+      width: 70%;
+    }
+    .nav-items {
+      display: none;
+    }
+    .ham {
+      display: block;
+    }
+    .nav-items a {
+      color: white !important;
+    }
+  }
