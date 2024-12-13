@@ -83,3 +83,23 @@ nav .nav-links a {
     padding-bottom: 10px;
     font-size: 13px;
   }
+
+  .paragraph {
+    display: flex;
+    justify-content: flex-end;
+  }
+  .paragraph div {
+    width: 50vw;
+    font-size: 30px;
+  }
+  .para {
+    padding: 156px 10px;
+    display: flex;
+    justify-content: end;
+    align-items: end;
+    text-wrap: wrap;
+    margin: 20px;
+  }
+  .para p {
+    font-size: 24px;
+  }
