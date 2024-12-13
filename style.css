@@ -130,3 +130,51 @@ nav .nav-links a {
 .projsum .detail div p {
   margin: 10px;
 }
+.about {
+    padding: 156px 10px;
+    text-align: center;
+    text-wrap: wrap;
+  }
+  .about div {
+    display: flex;
+    justify-content: center;
+  }
+  .about div h2 {
+    width: 75%;
+    text-align: center;
+    font-size: 45px;
+  }
+  .creations {
+    height: 70vh;
+    background-image: linear-gradient(
+      rgba(232, 244, 231, 0),
+      rgba(241, 57, 20, 0.06)
+    );
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-bottom: 1px solid;
+  }
+  .mb-10 {
+    margin-bottom: 50px;
+  }
+  .creations h1 {
+    font-size: 64px;
+    background: transparent;
+  }
+  .creations p {
+    text-align: center;
+    font-size: 24px;
+    background: transparent;
+  }
+  .creations button {
+    border: none;
+    font-family: "Courier Prime", monospace !important;
+    padding: 10px 20px;
+    border-radius: 8px;
+    font-size: 18px;
+    background-color: rgba(241, 57, 20, 1);
+    color: white;
+    cursor: pointer;
+  }
