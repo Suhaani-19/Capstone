@@ -178,3 +178,43 @@ nav .nav-links a {
     color: white;
     cursor: pointer;
   }
+  footer {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+    margin-top: 10em;
+    align-items: center;
+  }
+  
+  footer button {
+    font-family: "Roboto Mono", monospace !important;
+    padding: 12px 20px;
+    background-color: transparent;
+    color: black;
+    border: 1px solid;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  
+  footer button:hover {
+    background-color: rgba(241, 57, 20, 1);
+    color: white;
+  }
+  @media (max-width: 1239px) {
+    .header h1 {
+      font-size: 80px;
+    }
+  
+    .image9 {
+      display: none;
+    }
+  }
+  @media (max-width: 889px) {
+    .header h1 {
+      font-size: 30px;
+    }
+    .ending div div {
+      width: 100vw;
+    }
+  }
