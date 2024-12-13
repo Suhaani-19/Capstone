@@ -258,3 +258,15 @@ nav .nav-links a {
       width: 100%;
     }
   }
+  @media (max-width: 440px) {
+    .frames {
+      width: 85%;
+    }
+    .images {
+      width: 85%;
+    }
+    .frames img {
+      width: 100%;
+      height: auto;
+    }
+  }
