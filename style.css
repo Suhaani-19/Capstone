@@ -232,3 +232,29 @@ nav .nav-links a {
       color: white !important;
     }
   }
+  @media (max-width: 900px) {
+    .about div h2 {
+      font-size: 20px;
+    }
+    .paragraph div {
+      width: auto;
+    }
+    .paragraph {
+      display: block;
+    }
+    .para div p {
+      font-size: 15px;
+      text-align: center;
+    }
+  }
+  @media (max-width: 700px) {
+    .creations h1 {
+      font-size: 40px;
+    }
+    .copyright {
+      width: 50%;
+    }
+    .copyright img {
+      width: 100%;
+    }
+  }
