@@ -170,7 +170,7 @@ nav .navLinks a {
   }
   .creations button {
     border: none;
-    font-family: "Courier Prime", monospace !important;
+    font-family: "Courier Prime", monospace;
     padding: 10px 20px;
     border-radius: 8px;
     font-size: 18px;
@@ -187,7 +187,7 @@ nav .navLinks a {
   }
   
   footer button {
-    font-family: "Roboto Mono", monospace !important;
+    font-family: "Roboto Mono", monospace;
     padding: 12px 20px;
     background-color: transparent;
     color: black;
