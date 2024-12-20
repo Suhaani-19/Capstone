@@ -28,7 +28,7 @@ nav + a {
   display: none;
 }
 
-nav .nav-links a {
+nav .navLinks a {
   text-decoration: none;
   cursor: pointer;
   text-transform: capitalize;
@@ -50,34 +50,34 @@ nav .nav-links a {
   .header h1 {
     font-size: 120px;
   }
-  .image {
+  .img {
     margin: 20px;
   }
-  .image img {
+  .img img {
     width: 100%;
     height: auto;
   }
-  .frames {
+  .projects {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
     margin: 20px;
     margin-top: 50px;
   }
-  .frames img {
+  .projects img {
     width: 400px;
     height: auto;
     padding: 10px;
   }
   
-  .frames p {
+  .projects p {
     padding: 10px;
     padding-top: 0px;
     padding-bottom: 2px;
     font-size: 17px;
   }
   
-  .frames p:nth-child(3) {
+  .projects p:nth-child(3) {
     color: rgba(0, 0, 0, 0.6);
     padding-top: 0px;
     padding-bottom: 10px;
@@ -130,16 +130,16 @@ nav .nav-links a {
 .projsum .detail div p {
   margin: 10px;
 }
-.about {
+.abt {
     padding: 156px 10px;
     text-align: center;
     text-wrap: wrap;
   }
-  .about div {
+  .abt div {
     display: flex;
     justify-content: center;
   }
-  .about div h2 {
+  .abt div h2 {
     width: 75%;
     text-align: center;
     font-size: 45px;
@@ -222,18 +222,18 @@ nav .nav-links a {
     .logo img {
       width: 70%;
     }
-    .nav-items {
+    .navItems {
       display: none;
     }
     .ham {
       display: block;
     }
-    .nav-items a {
+    .navItems a {
       color: white !important;
     }
   }
   @media (max-width: 900px) {
-    .about div h2 {
+    .abt div h2 {
       font-size: 20px;
     }
     .paragraph div {
@@ -250,22 +250,23 @@ nav .nav-links a {
   @media (max-width: 700px) {
     .creations h1 {
       font-size: 40px;
+      margin: 10px;
     }
-    .copyright {
+    .footer {
       width: 50%;
     }
-    .copyright img {
+    .footer img {
       width: 100%;
     }
   }
   @media (max-width: 440px) {
-    .frames {
+    .projects {
       width: 85%;
     }
-    .images {
+    .projs {
       width: 85%;
     }
-    .frames img {
+    .projects img {
       width: 100%;
       height: auto;
     }
