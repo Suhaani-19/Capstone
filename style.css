@@ -151,6 +151,7 @@ nav .navLinks a {
       rgba(241, 57, 20, 0.06)
     );
     display: flex;
+    text-align: center;
     justify-content: center;
     align-items: center;
     flex-direction: column;
@@ -250,7 +251,6 @@ nav .navLinks a {
   @media (max-width: 700px) {
     .creations h1 {
       font-size: 40px;
-      margin: 10px;
     }
     .footer {
       width: 50%;
